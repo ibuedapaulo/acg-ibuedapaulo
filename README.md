@@ -114,36 +114,36 @@ To be added
 
 ### General Computer Graphics
 
-- [Introduction to Computer Graphics by Cem Yuksel](https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)
-- [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
-- [Fundamentals of Computer Graphics – Shirley & Marschner](https://www.routledge.com/Fundamentals-of-Computer-Graphics/Shirley-Marschner/p/book/9781032365268)
-- [Real-Time Rendering Resources](https://www.realtimerendering.com/index.html)
-- [Physically Based Rendering](https://pbr-book.org/4ed/contents)
-- [Scratchpixel 2.0](https://www.scratchapixel.com/)
+- 🎥 [Introduction to Computer Graphics by Cem Yuksel](https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)
+- 🌐 [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
+- 📖 [Fundamentals of Computer Graphics – Shirley & Marschner](https://www.routledge.com/Fundamentals-of-Computer-Graphics/Shirley-Marschner/p/book/9781032365268)
+- 📖 [Real-Time Rendering Resources](https://www.realtimerendering.com/index.html)
+- 📖 [Physically Based Rendering](https://pbr-book.org/4ed/contents)
+- 🌐 [Scratchpixel 2.0](https://www.scratchapixel.com/)
 
 ### Parametric Representation
-- [Bézier Curve](https://pomax.github.io/bezierinfo/)
+- 🌐 [Bézier Curve](https://pomax.github.io/bezierinfo/)
 
 ### Rendering / Ray Tracing
-- [Ray Tracing in One Weekend series](https://raytracing.github.io/)
+- 🌐 [Ray Tracing in One Weekend series](https://raytracing.github.io/)
 
 ### Spatial Data Structures
-- [PBR Book, Ch. 7](https://pbr-book.org/4ed/Primitives_and_Intersection_Acceleration)
+- 📖 [PBR Book, Ch. 7](https://pbr-book.org/4ed/Primitives_and_Intersection_Acceleration)
 
 ### Implicit Modeling
-- [2D SDF by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)
+- 🌐 [2D SDF by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)
 
 ### Geometry / Mesh Processing
-- [Polygon Mesh Processing – Botsch et al.](https://www.pmp-book.org/)
-- [Geometry Processing course – Alec Jacobson](https://github.com/alecjacobson/geometry-processing-csc2520)
+- 📖 [Polygon Mesh Processing – Botsch et al.](https://www.pmp-book.org/)
+- 🌐 [Geometry Processing course – Alec Jacobson](https://github.com/alecjacobson/geometry-processing-csc2520)
 
 ### Gaussian Splatting
-- [3D Gaussian Splatting (original paper & resources)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+- 📄 [3D Gaussian Splatting (original paper & resources)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
 
 ### Differentiable Rendering
-- [Nvdiffrast](https://nvlabs.github.io/nvdiffrast/)
+- 🌐 [Nvdiffrast](https://nvlabs.github.io/nvdiffrast/)
 
 ### Related Courses by the Instructor
-- [Physics-based Animation 2023S](https://github.com/nobuyuki83/Physics-based_Animation_2023S)
-- [Physics-based Animation 2021S](https://github.com/nobuyuki83/Physics-based_Animation_2021S)
+- 🌐 [Physics-based Animation 2023S](https://github.com/nobuyuki83/Physics-based_Animation_2023S)
+- 🌐 [Physics-based Animation 2021S](https://github.com/nobuyuki83/Physics-based_Animation_2021S)
 
