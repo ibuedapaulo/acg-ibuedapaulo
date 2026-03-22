@@ -1,8 +1,5 @@
 # Applied Computer Graphics 4860-1084
 
-[![CI_Linux](https://github.com/ACG-2024S/acg/actions/workflows/ubuntu.yml/badge.svg)](https://github.com/ACG-2024S/acg/actions/workflows/ubuntu.yml)
-[![CI_Win](https://github.com/ACG-2024S/acg/actions/workflows/windows.yml/badge.svg)](https://github.com/ACG-2024S/acg/actions/workflows/windows.yml)
-
 ![teaser](doc/rep_image.png)
 
 Lecture at graduate school of information science and technology in the university of Tokyo, spring semester, 2026
@@ -37,23 +34,26 @@ Monday 2nd period, 10:25am - 12:10pm
 
 ## Course Description
 
-Computer graphics is a technology to computationally represent objects' geometry, appearance and movement. This course is an introduction to the techniques generally seen in computer graphics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, numerical analysis and optimization through the topics in computer graphics. There are C++ programming assignments to acquire research-oriented graphics programming skills such as OpenGL, shader programming, Eigen matrix library, Git and cmake. 
+Computer graphics is a technology to computationally represent objects' geometry, appearance and movement. This course is an introduction to the techniques generally seen in computer graphics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, numerical analysis and optimization through the topics in computer graphics. There are Rust/Unity programming assignments to acquire research-oriented graphics programming skills such as shader programming and Git. 
 
 Topics:
-- Affine transformation & homography
-- Visualization (rasterization / ray casting)
-- Continuous optimization
-- Parametric curves & surfaces
+- Visualization of lines/trianges using rasterization/ray casting
+- Parametric curves/surfaces
+- Affine/homography transformation
+- Volume representation and visualization
+- Monte Carlo integration
+- Continuous optimization (gradient/hessian based)
 - Variational mesh deformation
+
 
 
 ## Lecture Schedule
 
 | Day | Topic | 
 |:----|:---|
-|(1)<br>Apr. 20| **Introduction**<br>Digital image, Rasterization in 2D |  
-|(2)<br>Apr. 27| **Parametric curve/surface** <br/>Bézier curve, Splines, polynomial |  
-|(3)<br>May. 7| **Coordinate transformation**<br>Affine, Homography transformation |  
+|(1)<br>Apr. 20| **Introduction**<br>Digital image, Rasterization in 2D, Brezenham's algorithm |  
+|(2)<br>Apr. 27| **Parametric curve/surface** <br/>Bézier curve, Splines, Polynomial root finding |  
+|(3)<br>May. 7| **Coordinate transformation**<br>Affine/ Homography transformation |  
 |(4)<br>May 11| **Rasterization1**<br>Graphics pipeline, Depth buffer method, Simple shading | 
 |(5)<br>May 18| **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development | 
 |(6)<br>May 22| **Spatial data structure**<br> Bounding volume hierarchy, Kd-tree, Octree  | 
@@ -82,14 +82,14 @@ Look at the following document.
 
 [How to Submit the Assignments](doc/submit.md)
 
-**Below is a tentetive schedule. Each assignment will be open and in a class one-by-one**
+**Below is a tentative schedule. Each assignment will be open and in a class one-by-one**
 
 | Task ID | Title | Thumbnail | Assigned | Due |
 |:---|:---|:---|:---|:---|
 | task01 | **Rasterization of lines and polygons**<br>Winding number |  |Apr. 27| |
 | task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | |May 7| |
 | task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |May 11| |
-| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22|
+| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22| |
 | task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  |May 25| |
 | task06 | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling | |Jun. 8| |
 | task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending | |Jun. 15| |
@@ -106,13 +106,44 @@ Look at the following document.
 
 ## Slides
 
-TO be added
+To be added
 
 
 
 ## Reading Material
-- [Applied Computer Graphics 2024S (The same course two years ago)](https://github.com/nobuyuki83/Applied_Computer_Graphics_2024S)
+
+### General Computer Graphics
+
 - [Introduction to Computer Graphics by Cem Yuksel](https://www.youtube.com/watch?v=vLSphLtKQ0o&list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)
 - [Awesome Computer Graphics (GitHub)](https://github.com/luisnts/awesome-computer-graphics)
+- [Fundamentals of Computer Graphics – Shirley & Marschner](https://www.routledge.com/Fundamentals-of-Computer-Graphics/Shirley-Marschner/p/book/9781032365268)
+- [Real-Time Rendering Resources](https://www.realtimerendering.com/index.html)
+- [Physically Based Rendering](https://pbr-book.org/4ed/contents)
+- [Scratchpixel 2.0](https://www.scratchapixel.com/)
 
+### Parametric Representation
+- [Bézier Curve](https://pomax.github.io/bezierinfo/)
+
+### Rendering / Ray Tracing
+- [Ray Tracing in One Weekend series](https://raytracing.github.io/)
+
+### Spatial Data Structures
+- [PBR Book, Ch. 7](https://pbr-book.org/4ed/Primitives_and_Intersection_Acceleration)
+
+### Implicit Modeling
+- [2D SDF by Inigo Quilez](https://iquilezles.org/articles/distfunctions2d/)
+
+### Geometry / Mesh Processing
+- [Polygon Mesh Processing – Botsch et al.](https://www.pmp-book.org/)
+- [Geometry Processing course – Alec Jacobson](https://github.com/alecjacobson/geometry-processing-csc2520)
+
+### Gaussian Splatting
+- [3D Gaussian Splatting (original paper & resources)](https://repo-sam.inria.fr/fungraph/3d-gaussian-splatting/)
+
+### Differentiable Rendering
+- [Nvdiffrast](https://nvlabs.github.io/nvdiffrast/)
+
+### Related Courses by the Instructor
+- [Physics-based Animation 2023S](https://github.com/nobuyuki83/Physics-based_Animation_2023S)
+- [Physics-based Animation 2021S](https://github.com/nobuyuki83/Physics-based_Animation_2021S)
 
