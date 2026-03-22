@@ -84,15 +84,15 @@ Look at the following document.
 
 | Task ID | Title | Thumbnail |
 |:---|:---|:---|
-| [task01](task01) | **Rasterization of lines and polygons**<br>DDA, winding number | <img src="task01/preview.png" width=100px> |
-| [task02](task02) | **Rasterization of parametric curves**<br> Quadratic Bézier curve, root of polynominal | <img src="task02/preview.png" width=100px> |
-| [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle, barycentric coordinate | <img src="task03/preview.png" width=100px> |
-| [task04](task04) | **Vertex shader practice** <br>Rendering pipeline, mirror reflection, OpenGL | <img src="task04/preview.png" width=100px> |
-| [task05](task05) | **Fragment shader practice**<br>Ray marching method, CSG modeling, implicit modeling | <img src="task05/preview.png" width=100px> |
-| [task06](task06) | **Monte Carlo integration1**<br>Ambient occlusion, importance sampling, BVH | <img src="task06/preview.png" width=100px> |
-| [task07](task07) | **Monte Carlo integration2**<br/>Multiple importance sampling | <img src="task07/preview.png" width=100px> |
-| [task08](task08) | **Skeletal Character Animation**<br>Linear blend skinning, articulated rigid body | <img src="task08/preview.png" width=100px> |
-| [task09](task09) | **Laplacian Mesh Deformation**<br> Quadratic programming, sparse linear system | <img src="task09/preview.png" width=100px> |
+| task01 | **Rasterization of lines and polygons**<br>Winding number | <img src="task01/preview.png" width=100px> |
+| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | <img src="task02/preview.png" width=100px> |
+| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,p Barycentric coordinates | <img src="task03/preview.png" width=100px> |
+| task04 | **Shader practice1** <br>Unity, Rendering pipeline | <img src="task04/preview.png" width=100px> |
+| task05 | **Acceleration of geometry computing**, BVH |  | 
+| task06 | **Shader practice2**<br>Ray marching method, CSG modeling, implicit modeling | <img src="task05/preview.png" width=100px> |
+| task07 | **Gaussian splatting**<br>Ambient occlusion, importance sampling, BVH | <img src="task06/preview.png" width=100px> |
+| task08 | **Monte Carlo integration**<br/>Importance sampling | <img src="task07/preview.png" width=100px> |
+| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, sparse linear system | <img src="task09/preview.png" width=100px> |
 
 ### Policy
 
