@@ -82,17 +82,19 @@ Look at the following document.
 
 [How to Submit the Assignments](doc/submit.md)
 
-| Task ID | Title | Thumbnail |
-|:---|:---|:---|
-| task01 | **Rasterization of lines and polygons**<br>Winding number |  |
-| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding |  |
-| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |
-| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |
-| task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  | 
-| task06 | **Shader practice2**<br>Ray marching method, CSG modeling, implicit modeling |  |
-| task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |  |
-| task08 | **Monte Carlo integration**<br/>Importance sampling |  |
-| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system |  |
+**Below is a tentetive schedule. Each assignment will be open and in a class one-by-one**
+
+| Task ID | Title | Thumbnail | Assigned | Due |
+|:---|:---|:---|:---|:---|
+| task01 | **Rasterization of lines and polygons**<br>Winding number |  |Apr. 27| |
+| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | |May 7| |
+| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |May 11| |
+| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22|
+| task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  |May 25| |
+| task06 | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling | |Jun. 8| |
+| task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending | |Jun. 15| |
+| task08 | **Monte Carlo integration**<br/>Importance sampling |  |Jun. 29| |
+| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system | |Jul. 6| |
 
 ### Policy
 
