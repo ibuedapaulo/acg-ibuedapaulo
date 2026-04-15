@@ -37,7 +37,7 @@ Monday 2nd period, 10:25am - 12:10pm
 Computer graphics is a technology to computationally represent objects' geometry, appearance and movement. This course is an introduction to the techniques generally seen in computer graphics. The aim of the course is to get familiar with applied mathematics such as linear algebra, vector analysis, partial differential equations, numerical analysis and optimization through the topics in computer graphics. There are Rust/Unity programming assignments to acquire research-oriented graphics programming skills such as shader programming and Git. 
 
 Topics:
-- Visualization of lines/trianges using rasterization/ray casting
+- Visualization of lines/triangles using rasterization/ray casting
 - Parametric curves/surfaces
 - Affine/homography transformation
 - Volume representation and visualization
@@ -51,20 +51,51 @@ Topics:
 
 | Day | Topic | 
 |:----|:---|
-|(1)<br>Apr. 20| **Introduction**<br>Digital image, Rasterization in 2D, Brezenham's algorithm |  
-|(2)<br>Apr. 27| **Parametric curve/surface** <br/>Bézier curve, Splines, Polynomial root finding |  
-|(3)<br>May. 7| **Coordinate transformation**<br>Affine/ Homography transformation |  
-|(4)<br>May 11| **Rasterization1**<br>Graphics pipeline, Depth buffer method, Simple shading | 
+|(1)<br>Apr. 20| **Introduction**<br>Introduction [1] Digital image[2], Rasterization in 2D (Brezenham's algorithm)[3] |  
+|(2)<br>Apr. 27| **Parametric curve/surface** <br/>Polynomial root finding [4], Parametric Curve (Bézier curves/B-Splines)[5], Git [6] |  
+|(3)<br>May. 7| **Coordinate transformation**<br> 2D transformation (Homography transformation) [7], 3D transformation (Pinhole camera model) [8] |  
+|(4)<br>May 11| **Rasterization1**<br>Rasterization in 3D (Depth buffer method) [9], Graphics pipeline [10], Shading [11] | 
 |(5)<br>May 18| **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development | 
-|(6)<br>May 22| **Spatial data structure**<br> Bounding volume hierarchy, Kd-tree, Octree  | 
-|(7)<br>May 25| **Volume Representation**<br>Implicit modeling, Ray marching, Volume rendering | 
-|(8)<br>Jun. 8| **Rasterization2**<br> Monte-Carlo integration for anti-aliasing, Gaussian splatting | 
-|(9)<br>Jun. 15| **Ray Casting1**<br>Material model, Rendering equation | 
-|(10)<br>Jun. 22| **Ray Casting2**<br> Monte Carlo integration for importance sampling |
-|(11)<br>June 29| **Optimization**<br> Gradient descent, Back propagation, Newton's method | 
-|(12)<br>July 6| **Laplacian mesh deformation**<br> Sparse linear system | 
-|(13)<br>July 13| **Differentiable Rendering**<br>Reynolds transport theorem, Edge sampling, Nvdiffrast | 
+|(6)<br>May 22| **Spatial data structure**<br> Ray casting [12], Jagged array [13], Spatial data structure (BVH, Kd-tree, Octree) [14]  | 
+|(7)<br>May 25| **Volume Representation**<br>Implicit modeling [15], Volume visualization (ray marching, volume rendering)[16] | 
+|(8)<br>Jun. 8| **Rasterization2**<br> Anti-aliasing and transparency( Monte-carlo integration, Gaussian splatting) [17] | 
+|(9)<br>Jun. 15| **Ray Casting1**<br> Material modeling (Rendering equation) [18], Jacobian [19] | 
+|(10)<br>Jun. 22| **Ray Casting2**<br> Path tracing (Importance sampling)[20] |
+|(11)<br>June 29| **Optimization**<br> Optimization (Gradient descent, Back propagation, Newton's method) [21] | 
+|(12)<br>July 6| **Laplacian mesh deformation**<br> Sparse linear system [22], Mesh laplacian [23] | 
+|(13)<br>July 13| **Differentiable Rendering**<br> Differential rendering (Reynolds transport theorem, Edge sampling, Nvdiffrast) [24] | 
 
+
+## Slides
+
+*A link to the slides will be added to the title right before each class*
+
+- [1] Introduction
+- [2] Digital image
+- [3] Rasterization in 2D
+- [4] Polynomial root finding
+- [5] Parametric curve
+- [6] Git
+- [7] Coordinate transformation in 2D
+- [8] Coordinate transformation in 3D
+- [9] Rasterization in 3D
+- [10] Graphics pipeline
+- [11] Shading
+- [12] Ray casting
+- [13] Jagged array
+- [14] Spatial data structure
+- [15] Implicit modeling
+- [16] Volume visualization
+- [17] Antialiasing & transparency
+- [18] Material modeling
+- [19] Jacobian
+- [20] Path tracing
+- [21] Optimization
+- [22] Sparse linear system
+- [23] Mesh Laplacian
+- [24] Differential Rendering
+- [25] Rust language
+- [26] Unity
 
 ## Grading
 
@@ -86,15 +117,15 @@ Look at the following document.
 
 | Task ID | Title | Thumbnail | Assigned | Due |
 |:---|:---|:---|:---|:---|
-| task01 | **Rasterization of lines and polygons**<br>Winding number |  |Apr. 27| |
-| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | |May 7| |
-| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |May 11| |
-| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22| |
-| task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  |May 25| |
-| task06 | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling | |Jun. 8| |
-| task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending | |Jun. 15| |
-| task08 | **Monte Carlo integration**<br/>Importance sampling |  |Jun. 29| |
-| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system | |Jul. 6| |
+| task01 | **Rasterization of lines and polygons**<br>Winding number |  |Apr. 27| May 1|
+| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | |May 7| May 11|
+| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |May 11| May 15|
+| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22| May 26|
+| task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  |May 25| May 29|
+| task06 | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling | |Jun. 8| Jun. 12 |
+| task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending | |Jun. 15| Jun. 19|
+| task08 | **Monte Carlo integration**<br/>Importance sampling |  |Jun. 29| Jul. 3|
+| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system | |Jul. 6| Jul. 10|
 
 ### Policy
 
@@ -104,9 +135,6 @@ Look at the following document.
 - The assignments might not be graded soon.
 
 
-## Slides
-
-To be added
 
 
 
