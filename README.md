@@ -49,51 +49,51 @@ Topics:
 
 ## Lecture Schedule
 
-| Day | Topic | 
-|:----|:---|
-|(1)<br>Apr. 20| **Introduction**<br>Introduction [1] Digital image[2], Rasterization in 2D (Brezenham's algorithm)[3] |  
-|(2)<br>Apr. 27| **Parametric curve/surface** <br/>Polynomial root finding [4], Parametric Curve (Bézier curves/B-Splines)[5], Git [6] |  
-|(3)<br>May. 7| **Coordinate transformation**<br> 2D transformation (Homography transformation) [7], 3D transformation (Pinhole camera model) [8] |  
-|(4)<br>May 11| **Rasterization1**<br>Rasterization in 3D (Depth buffer method) [9], Graphics pipeline [10], Shading [11] | 
-|(5)<br>May 18| **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development | 
-|(6)<br>May 22| **Spatial data structure**<br> Ray casting [12], Jagged array [13], Spatial data structure (BVH, Kd-tree, Octree) [14]  | 
-|(7)<br>May 25| **Volume Representation**<br>Implicit modeling [15], Volume visualization (ray marching, volume rendering)[16] | 
-|(8)<br>Jun. 8| **Rasterization2**<br> Anti-aliasing and transparency( Monte-carlo integration, Gaussian splatting) [17] | 
-|(9)<br>Jun. 15| **Ray Casting1**<br> Material modeling (Rendering equation) [18], Jacobian [19] | 
-|(10)<br>Jun. 22| **Ray Casting2**<br> Path tracing (Importance sampling)[20] |
-|(11)<br>June 29| **Optimization**<br> Optimization (Gradient descent, Back propagation, Newton's method) [21] | 
-|(12)<br>July 6| **Laplacian mesh deformation**<br> Sparse linear system [22], Mesh laplacian [23] | 
-|(13)<br>July 13| **Differentiable Rendering**<br> Differential rendering (Reynolds transport theorem, Edge sampling, Nvdiffrast) [24] | 
+| Day             | Topic                                                                                           | 
+|:----------------|:------------------------------------------------------------------------------------------------|
+| (1)<br>Apr. 20  | **Introduction**<br>[1] Introduction, [2] Digital image, [3] Rasterization in 2D                |  
+| (2)<br>Apr. 27  | **Parametric curve/surface** <br/>[4] Polynomial root finding, [5] Parametric Curve, [6] Git    |  
+| (3)<br>May. 7   | **Coordinate transformation**<br> [7] 2D transformation, [8] 3D transformation                  |  
+| (4)<br>May 11   | **Rasterization1**<br>[9] Rasterization in 3D, [10] Graphics pipeline, [11] Shading             | 
+| (5)<br>May 18   | **Guest Lecture by Sei Imai (I.Meisters)**<br> Game development                                 | 
+| (6)<br>May 22   | **Spatial data structure**<br> [12] Ray casting, [13] Jagged array, [14] Spatial data structure | 
+| (7)<br>May 25   | **Volume Representation**<br> [15] Implicit modeling, [16] Volume visualization                 | 
+| (8)<br>Jun. 8   | **Rasterization2**<br> [17] Anti-aliasing and transparency                                      | 
+| (9)<br>Jun. 15  | **Ray Casting1**<br> [18] Material modeling, [19] Jacobian                                      | 
+| (10)<br>Jun. 22 | **Ray Casting2**<br> [20] Path tracing                                                          |
+| (11)<br>June 29 | **Optimization**<br> [21] Optimization                                                          | 
+| (12)<br>July 6  | **Laplacian mesh deformation**<br> [22] Sparse linear system, [23] Mesh laplacian               | 
+| (13)<br>July 13 | **Differentiable Rendering**<br> [24] Differential rendering                                    | 
 
 
 ## Slides
 
 *A link to the slides will be added to the title right before each class*
 
-- [1] Introduction
-- [2] Digital image
-- [3] Rasterization in 2D
+- [1] [Introduction](http://nobuyuki-umetani.com/acg2026s/1_introduction.pdf)
+- [2] [Digital image](http://nobuyuki-umetani.com/acg2026s/2_digital_image.pdf)
+- [3] [Rasterization in 2D (Brezenham's algorithm)](http://nobuyuki-umetani.com/acg2026s/3_rasterization_2d.pdf)
 - [4] Polynomial root finding
-- [5] Parametric curve
+- [5] Parametric curve (Bézier curve/B-splines)
 - [6] Git
-- [7] Coordinate transformation in 2D
-- [8] Coordinate transformation in 3D
-- [9] Rasterization in 3D
-- [10] Graphics pipeline
-- [11] Shading
+- [7] Coordinate transformation in 2D (Pinhole camera model)
+- [8] Coordinate transformation in 3D (View frustum, Normalized device coordinates)
+- [9] Rasterization in 3D (Depth buffer method)
+- [10] Graphics pipeline (Shader programming)
+- [11] Shading (Grouraud shading, Phong shading)
 - [12] Ray casting
 - [13] Jagged array
-- [14] Spatial data structure
+- [14] Spatial data structure (BVH, Kd-tree, Octree)
 - [15] Implicit modeling
-- [16] Volume visualization
-- [17] Antialiasing & transparency
-- [18] Material modeling
-- [19] Jacobian
-- [20] Path tracing
-- [21] Optimization
+- [16] Volume visualization (ray marching, volume rendering)
+- [17] Antialiasing & transparency (Monte-Carlo integration, Gaussian splatting)
+- [18] Material modeling (Rendering equation)
+- [19] Jacobian (Environmental mapping)
+- [20] Path tracing (Importance sampling)
+- [21] Optimization (Gradient descent, Back propagation, Newton's method)
 - [22] Sparse linear system
 - [23] Mesh Laplacian
-- [24] Differential Rendering
+- [24] Differential Rendering (Reynolds transport theorem, Edge sampling, nvDiffRast)
 - [25] Rust language
 - [26] Unity
 
@@ -115,17 +115,17 @@ Look at the following document.
 
 **Below is a tentative schedule. Each assignment will be open and in a class one-by-one**
 
-| Task ID | Title | Thumbnail | Assigned | Due |
-|:---|:---|:---|:---|:---|
-| task01 | **Rasterization of lines and polygons**<br>Winding number |  |Apr. 27| May 1|
-| task02 | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding | |May 7| May 11|
-| task03 | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates |  |May 11| May 15|
-| task04 | **Shader practice1**<br>Unity, Rendering pipeline |  |May 22| May 26|
-| task05 | **Acceleration of geometry computing**<br> Bounding-volume hierarchy |  |May 25| May 29|
-| task06 | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling | |Jun. 8| Jun. 12 |
-| task07 | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending | |Jun. 15| Jun. 19|
-| task08 | **Monte Carlo integration**<br/>Importance sampling |  |Jun. 29| Jul. 3|
-| task09 | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system | |Jul. 6| Jul. 10|
+| Task ID | Title                                                                                                   | Thumbnail | Assigned | Due     |
+|:--------|:--------------------------------------------------------------------------------------------------------|:----------|:---------|:--------|
+| task01  | **Rasterization of lines and polygons**<br>Winding number                                               |           | Apr. 27  | May 1   |
+| task02  | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    |           | May 7    | May 11  |
+| task03  | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          |           | May 11   | May 15  |
+| task04  | **Shader practice1**<br>Unity, Rendering pipeline                                                       |           | May 22   | May 26  |
+| task05  | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |           | May 25   | May 29  |
+| task06  | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |           | Jun. 8   | Jun. 12 |
+| task07  | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |           | Jun. 15  | Jun. 19 |
+| task08  | **Monte Carlo integration**<br/>Importance sampling                                                     |           | Jun. 29  | Jul. 3  |
+| task09  | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |           | Jul. 6   | Jul. 10 |
 
 ### Policy
 
