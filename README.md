@@ -76,8 +76,8 @@ Topics:
 - [4] [Polynomial root finding](http://nobuyuki-umetani.com/acg2026s/4_polynomial_root_finding.pdf)
 - [5] [Parametric curve (Bézier curve/B-splines)](http://nobuyuki-umetani.com/acg2026s/5_parametric_curve.pdf))
 - [6] [Git](http://nobuyuki-umetani.com/acg2026s/6_git.pdf)
-- [7] Coordinate transformation in 2D (Pinhole camera model)
-- [8] Coordinate transformation in 3D (View frustum, Normalized device coordinates)
+- [7] [Coordinate transformation in 2D (Pinhole camera model)](http://nobuyuki-umetani.com/acg2026s/7_transformation_2d.pdf)
+- [8] [Coordinate transformation in 3D (View frustum, Normalized device coordinates)](http://nobuyuki-umetani.com/acg2026s/8_transformation_3d.pdf)
 - [9] Rasterization in 3D (Depth buffer method)
 - [10] Graphics pipeline (Shader programming)
 - [11] Shading (Grouraud shading, Phong shading)
@@ -115,17 +115,17 @@ Look at the following document.
 
 **Below is a tentative schedule. Each assignment will be open and in a class one-by-one**
 
-| Task ID          | Title                                                                                                   | Thumbnail                       | Assigned | Due     |
-|:-----------------|:--------------------------------------------------------------------------------------------------------|:--------------------------------|:---------|:--------|
-| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thubnail](task01/preview.png) | Apr. 27  | May 1   |
-| task02           | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    |                                 | May 7    | May 11  |
-| task03           | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          |                                 | May 11   | May 15  |
-| task04           | **Shader practice1**<br>Unity, Rendering pipeline                                                       |                                 | May 22   | May 26  |
-| task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                 | May 25   | May 29  |
-| task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                 | Jun. 8   | Jun. 12 |
-| task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                 | Jun. 15  | Jun. 19 |
-| task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                 | Jun. 29  | Jul. 3  |
-| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |                                 | Jul. 6   | Jul. 10 |
+| Task ID          | Title                                                                                                   | Thumbnail                        | Assigned | Due     |
+|:-----------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------|:---------|:--------|
+| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png) | Apr. 27  | May 1   |
+| [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png) | May 7    | May 11  |
+| task03           | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          |                                  | May 11   | May 15  |
+| task04           | **Shader practice1**<br>Unity, Rendering pipeline                                                       |                                  | May 22   | May 26  |
+| task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                  | May 25   | May 29  |
+| task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                  | Jun. 8   | Jun. 12 |
+| task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                  | Jun. 15  | Jun. 19 |
+| task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                  | Jun. 29  | Jul. 3  |
+| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |                                  | Jul. 6   | Jul. 10 |
 
 ### Policy
 
