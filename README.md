@@ -115,17 +115,17 @@ Look at the following document.
 
 **Below is a tentative schedule. Each assignment will be open and in a class one-by-one**
 
-| Task ID          | Title                                                                                                   | Thumbnail                        | Assigned | Due     |
-|:-----------------|:--------------------------------------------------------------------------------------------------------|:---------------------------------|:---------|:--------|
-| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png) | Apr. 27  | May 1   |
-| [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png) | May 7    | May 11  |
-| task03           | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          |                                  | May 11   | May 15  |
-| task04           | **Shader practice1**<br>Unity, Rendering pipeline                                                       |                                  | May 22   | May 26  |
-| task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                  | May 25   | May 29  |
-| task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                  | Jun. 8   | Jun. 12 |
-| task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                  | Jun. 15  | Jun. 19 |
-| task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                  | Jun. 29  | Jul. 3  |
-| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |                                  | Jul. 6   | Jul. 10 |
+| Task ID          | Title                                                                                                   | Thumbnail                                                             | Assigned | Due     |
+|:-----------------|:--------------------------------------------------------------------------------------------------------|:----------------------------------------------------------------------|:---------|:--------|
+| [task01](task01) | **Rasterization of lines and polygons**<br>Winding number                                               | ![thumbnail](task01/preview.png)                                      | Apr. 27  | May 1   |
+| [task02](task02) | **Rasterization of parametric curves**<br> Parametric curve, Polynomial root finding                    | ![thumbnail](task02/preview.png)                                      | May 7    | May 11  |
+| [task03](task03) | **Perspectively-correct texture mapping**<br>rasterization of triangle,Barycentric coordinates          | ![thumbnail](task03/preview1.png)   ![thumbnail](task03/preview2.png) | May 11   | May 15  |
+| task04           | **Shader practice1**<br>Unity, Rendering pipeline                                                       |                                                                       | May 22   | May 26  |
+| task05           | **Acceleration of geometry computing**<br> Bounding-volume hierarchy                                    |                                                                       | May 25   | May 29  |
+| task06           | **Shader practice2**<br>Unity, Ray marching method, CSG modeling, implicit modeling                     |                                                                       | Jun. 8   | Jun. 12 |
+| task07           | **Gaussian splatting**<br>Rasterization of Gaussian primitives, Tile-based acceleration, Alpha-blending |                                                                       | Jun. 15  | Jun. 19 |
+| task08           | **Monte Carlo integration**<br/>Importance sampling                                                     |                                                                       | Jun. 29  | Jul. 3  |
+| task09           | **Laplacian Mesh Deformation**<br> Quadratic programming, Sparse linear system                          |                                                                       | Jul. 6   | Jul. 10 |
 
 ### Policy
 
