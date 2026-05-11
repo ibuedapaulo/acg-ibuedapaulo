@@ -78,9 +78,9 @@ Topics:
 - [6] [Git](http://nobuyuki-umetani.com/acg2026s/6_git.pdf)
 - [7] [Coordinate transformation in 2D (Pinhole camera model)](http://nobuyuki-umetani.com/acg2026s/7_transformation_2d.pdf)
 - [8] [Coordinate transformation in 3D (View frustum, Normalized device coordinates)](http://nobuyuki-umetani.com/acg2026s/8_transformation_3d.pdf)
-- [9] Rasterization in 3D (Depth buffer method)
-- [10] Graphics pipeline (Shader programming)
-- [11] Shading (Grouraud shading, Phong shading)
+- [9] [Rasterization in 3D (Depth buffer method)](http://nobuyuki-umetani.com/acg2026s/9_rasterization_3d.pdf)
+- [10] [Graphics pipeline (Shader programming)](http://nobuyuki-umetani.com/acg2026s/10_graphics_pipeline.pdf)
+- [11] [Shading (Grouraud shading, Phong shading)](http://nobuyuki-umetani.com/acg2026s/11_shading.pdf)
 - [12] Ray casting
 - [13] Jagged array
 - [14] Spatial data structure (BVH, Kd-tree, Octree)
