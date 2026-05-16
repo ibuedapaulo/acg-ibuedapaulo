@@ -59,11 +59,22 @@ pub fn draw_3d_triangle_with_texture(
     // Compute bounding box in pixel coordinate
     let aabb = {
         // comment out below
-        [0, 0, width_out, height_out]
         // write some code below
+        let x_min = ndc0[0].min(ndc1[0]).min(ndc2[0]);
+        let x_max = ndc0[0].max(ndc1[0]).max(ndc2[0]);
+        let y_min = ndc0[1].min(ndc1[1]).min(ndc2[1]);
+        let y_max = ndc0[1].max(ndc1[1]).max(ndc2[1]);
 
+        // map ndc [-1, 1] to pixel coords
+        let min_iw = (((x_min + 1.0) / 2.0) * width_out as f32).floor().max(0.0) as usize;
+        let max_iw = (((x_max + 1.0) / 2.0) * width_out as f32).ceil().min(width_out as f32) as usize;
+
+        // y-axis is inverted between ndc space and screen space
+        let min_ih = (((1.0 - y_max) / 2.0) * height_out as f32).floor().max(0.0) as usize;
+        let max_ih = (((1.0 - y_min) / 2.0) * height_out as f32).ceil().min(height_out as f32) as usize;
 
         // end of edit
+        [min_iw, min_ih, width_out, height_out] // moved down here and edited zeroes
     };
 
     for ih in aabb[1]..aabb[3] {
@@ -88,11 +99,18 @@ pub fn draw_3d_triangle_with_texture(
             let total = area0 + area1 + area2;
             let bc_scr: [f32; 3] = [area0 / total, area1 / total, area2 / total];
             let w = 1.0 / (bc_scr[0] / ndcw0[3] + bc_scr[1] / ndcw1[3] + bc_scr[2] / ndcw2[3]);
+            
             // comment out below
-            let bc_obj = bc_scr;
             // edit from here to compute `bc_obj`
+            // perspective-correct depth interpolation
+            let w = 1.0 / (bc_scr[0] / ndcw0[3] + bc_scr[1] / ndcw1[3] + bc_scr[2] / ndcw2[3]);
 
-
+            // compute perspective-correct object barycentric coordinates
+            let bc_obj = [
+                (bc_scr[0] / ndcw0[3]) * w,
+                (bc_scr[1] / ndcw1[3]) * w,
+                (bc_scr[2] / ndcw2[3]) * w,
+            ];
             // end of edit
             // ---------------------------------
             // UV from (screen-space) barycentric interpolation
